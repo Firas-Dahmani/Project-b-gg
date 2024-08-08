@@ -1,13 +1,14 @@
 // import { useState } from 'react'
 import './App.css'
+import HelloTagB from './HelloTagB'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
-<button>hello b</button>
-    </>
+    <div>
+      <HelloTagB />
+    </div>
   )
 }
 
